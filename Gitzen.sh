@@ -976,13 +976,8 @@ cmd_help() {
         echo "╚═══════════【★】"
         echo ""
         echo "╔═══════════【★】「 TIPS 」【★】"
-        if is_termux; then
-            echo "║ • export GITZEN_LANG=id untuk Bahasa Indonesia"
-            echo "║ • export WEBHOOK_URL=\"https://...\" untuk notifikasi"
-        else
-            echo "║ • export GITZEN_LANG=id for Indonesian"
-            echo "║ • export WEBHOOK_URL=\"https://...\" for notifications"
-        fi
+        echo "║ • export GITZEN_LANG=en untuk Bahasa Inggris"
+        echo "║ • export WEBHOOK_URL=\"https://...\" untuk notifikasi"
         echo "╚═══════════【★】"
     else
         echo "╔═══════════【★】「 GITZEN v${VERSION} 」【★】"
@@ -1075,10 +1070,8 @@ cmd_help() {
         echo "╚═══════════【★】"
         echo ""
         echo "╔═══════════【★】「 TIPS 」【★】"
-        if is_termux; then
-            echo "║ • export GITZEN_LANG=id for Indonesian"
-            echo "║ • export WEBHOOK_URL=\"https://...\" for notifications"
-        fi
+        echo "║ • export GITZEN_LANG=id for Indonesian"
+        echo "║ • export WEBHOOK_URL=\"https://...\" for notifications"
         echo "╚═══════════【★】"
     fi
     echo ""
